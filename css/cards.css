@@ -1,0 +1,41 @@
+.container-card {
+  display: flex;
+  gap: 2%;
+  margin: 2% 0 2% 0;
+}
+
+.card {
+  max-width: 350px;
+  background-color: var(--cor-branca);
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  box-shadow: 5px 0px 15px rgba(0, 0, 0, 0.5);
+  transition: 500ms linear;
+  border-radius: 3px;
+}
+
+.card img {
+  max-width: 100%;
+  box-shadow: 5px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+.card__titulo {
+  font-size: 1.5rem;
+  color: var(--cor-amarelo);
+  font-family: var(--fonte-secundaria);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.card__texto {
+  font-style: italic;
+  color: var(--cor-cinza-claro);
+  line-height: 160%;
+  font-size: 1.3rem;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}

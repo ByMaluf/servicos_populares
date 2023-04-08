@@ -1,0 +1,16 @@
+.apresentacao {
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  gap: 10px;
+}
+
+.apresentacao__titulo {
+  font-size: 4rem;
+}
+
+.apresentacao__texto {
+  line-height: 160%;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
